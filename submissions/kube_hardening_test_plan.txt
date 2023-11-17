@@ -1,0 +1,5 @@
+How will you test the changes?
+The modification will undergo testing in a non-production setting, such as a test cluster.
+
+How will you ensure the changes don't negatively affect your cluster?
+After implementing the change, it is essential to employ our observability and monitoring tools such as Prometheus and Grafana to track relevant metrics. This process should be tested in a non-production cluster to ensure its effectiveness.
